@@ -23,6 +23,7 @@ header h1 {
   text-align: center;
 }
 header h1 sup {
+  font-size: 14px;
   color: #d8d8d8;
   font-weight: 400;
   text-align: center;
@@ -93,11 +94,14 @@ header .social{
 }
 
 #setting i {
+  display: block;
   color: #d8d8d8;
-  position: absolute;
-  right: 5px;
-  bottom: 0;
   font-size: 42px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
 }
 
 /* Setting End */
