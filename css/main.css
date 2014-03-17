@@ -53,12 +53,12 @@ header .social{
 /* Setting */
 
 #setting {
-  background: #191919;
+  background: rgba(25, 25, 25, 0.95);
   width: 100%;
   position: absolute;
   overflow: hidden;
   display: none;
-  height: 560px;
+  height: 500px;
   z-index: 99999;
 }
 
@@ -66,7 +66,8 @@ header .social{
   display: block;
   line-height: 100px;
   text-align: center;
-  font-size: 14px;
+  font-size: 20px;
+  font-weight: 700;
 }
 
 #setting ol li h3 {
@@ -77,6 +78,7 @@ header .social{
   line-height: 100px;
   padding: 0 10px 0 0;
   box-sizing: border-box;
+  font-weight: 400;
 }
 
 #setting ol li {
@@ -148,7 +150,8 @@ footer {
   bottom: 0px;
   text-align: center;
   width: 100%;
-  padding: 50px 0px 20px 0;
+  padding: 40px 0px 20px 0;
+  background-color: rgba(29%, 29%, 29%, 0.8);
 }
 
 footer p {
@@ -177,7 +180,7 @@ footer nav ul li a {
   background: #40CDD5;
   color: #fff;
 
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 10px 20px;
   transition: 0.4s ease-out;
 }
