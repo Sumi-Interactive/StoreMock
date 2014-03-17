@@ -1,35 +1,35 @@
 /* Generate */
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 
 /* Setting */
 
 #setting {
-	background: #f0f0f0;
+  background: #f0f0f0;
 }
 
 #setting ul li {
-	display: inline;
+  display: inline;
 }
 
 #iPhone35 img {
-	width: 64px;
-	height: 96px;
+  width: 64px;
+  height: 96px;
 }
 
 #iPhone4 img {
-	width: 64px;
-	height: 115.6px;
+  width: 64px;
+  height: 115.6px;
 }
 
 #iPad img{
-	width: 153.6px;
-	height: 204.8px;
+  width: 153.6px;
+  height: 204.8px;
 }
 
 /* Setting End */
 
 #preview {
-	background:#9de;
+  background:#9de;
 }
