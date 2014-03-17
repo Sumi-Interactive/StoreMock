@@ -1,17 +1,26 @@
 * {margin: 0; padding: 0;}
 
+#pre_body {
+  overflow-y: scroll;
+  padding: 0 10px;
+}
+
 #pre_body ul li {
   display: inline;
 }
 
-#pre_body {
-  padding: 0 10px;
-}
+#pre_body ul {margin: 0; padding: 0;}
+
 /* iPhone */
 #pre_body.iPhone {
-  margin: 245px 0 0 0px;
-  height: 284px;
-  width: 1020px;
+  margin: 160px auto 0 auto;
+  height: 360px;
+  width: 300px;
+}
+
+#pre_body.iPhone ul {
+  height: 355px;
+  width: 1050px;
 }
 
 #pre_body.iPhone img {
@@ -21,9 +30,14 @@
 
 /* iPad */
 #pre_body.iPad {
-  margin: 345px 0 0 0px;
-  height: 225px;
-  width: 1520px;
+  margin: 160px auto 0 auto;
+  height: 635px;
+  width: 1550px;
+}
+
+#pre_bodu.iPad ul {
+  width: 630px;
+  height: 630px;
 }
 
 #pre_body.iPad img {
