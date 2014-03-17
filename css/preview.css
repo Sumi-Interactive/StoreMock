@@ -1,47 +1,49 @@
 * {margin: 0; padding: 0;}
 
-#pre_body {
+.pre_body {
   overflow-y: scroll;
   padding: 0 10px;
 }
 
-#pre_body ul li {
+.pre_body ul li {
   display: inline;
 }
 
-#pre_body ul {margin: 0; padding: 0;}
-#pre_body ul li {margin: 0; padding: 0;}
+.pre_body ul {margin: 0; padding: 0;}
+.pre_body ul li {margin: 0; padding: 0;}
 
 /* iPhone */
-#pre_body.iPhone {
+#preview section.iPhone div.pre_body {
   margin: 240px auto 0 auto;
   height: 360px;
   width: 300px;
 }
 
-#pre_body.iPhone ul {
+#preview section.iPhone ul {
   height: 355px;
   width: 1050px;
 }
 
-#pre_body.iPhone img {
+#preview section.iPhone div.pre_body img {
   width: 200px;
   height: 355px;
 }
 
 /* iPad */
-#pre_body.iPad {
+#preview section.iPad { display: none;}
+
+#preview section.iPad div.pre_body {
   margin: 320px auto 0 auto;
   height: 235px;
   width: 610px;
 }
 
-#pre_body.iPad ul {
+#preview section.iPad div.pre_body ul {
   width: 1550px;
   height: 225px;
 }
 
-#pre_body.iPad img {
+#preview section.iPad div.pre_body img {
   width: 300px;
   height: 225px;
 }
