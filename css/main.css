@@ -5,7 +5,7 @@ a {text-decoration: none;}
 /* Setting */
 
 #setting {
-  background: rgba(230, 215, 210, 0.8);
+  background: #191919;
   width: 100%;
   position: absolute;
   overflow: hidden;
@@ -24,11 +24,10 @@ a {text-decoration: none;}
   color: white;
 }
 
-#setting header {
-  width: 20%;
-  height: 300px;
+#setting h2 {
+  color: #d8d8d8;
+  height: 50px;
   text-align: center;
-  float: left;
 }
 
 #setting ol {
@@ -37,8 +36,8 @@ a {text-decoration: none;}
 }
 
 #setting ol li h3 {
+  color: #9b9b9b;
   float: left;
-
   width: 20%;
 }
 
@@ -53,6 +52,7 @@ a {text-decoration: none;}
 }
 
 #setting i {
+  color: #d8d8d8;
   position: absolute;
   right: 5px;
   bottom: 0;
