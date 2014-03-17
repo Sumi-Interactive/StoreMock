@@ -7,7 +7,21 @@ a {text-decoration: none;}
 #setting {
   background: rgba(230, 215, 210, 0.8);
   width: 100%;
-  position: relative;
+  position: absolute;
+  overflow: hidden;
+}
+
+#setting.slide-up {
+  height: 30px;
+  background-color: rgba(0, 0, 0, 1);
+}
+
+#setting.slide-up ol {
+  display: none;
+}
+
+#setting.slide-up i {
+  color: white;
 }
 
 #setting header {
@@ -34,10 +48,15 @@ a {text-decoration: none;}
   width: 80%;
 }
 
-
-
 #setting ul li {
   display: inline;
+}
+
+#setting i {
+  position: absolute;
+  right: 5px;
+  bottom: 0;
+  font-size: 28px;
 }
 
 #iPhone35 img {
