@@ -4,6 +4,8 @@ a {text-decoration: none;}
 
 body {
   color: #d8d8d8;
+  font-family: 'Open Sans';
+  font-weight: 400;
 }
 
 /* Header */
@@ -12,10 +14,36 @@ header {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
+  height: 100px;
 }
 header h1 {
   color: white;
+  font-weight: 700;
+  flex: 1 0 auto;
+  text-align: center;
 }
+header h1 sup {
+  color: #d8d8d8;
+  font-weight: 400;
+  text-align: center;
+}
+header em {
+  flex: 1 0 auto;
+}
+header button {
+  flex: 1 0 auto;
+  cursor: pointer;
+  color: #40CDD5;
+  background: none;
+  display: block;
+  border: 1px solid #40CDD5;
+  padding: 10px 0;
+  font-weight: 700;
+}
+header .social{
+  flex: 5 0 auto;
+}
+
 
 /* Setting */
 
@@ -42,6 +70,8 @@ header h1 {
   color: #9b9b9b;
   float: left;
   width: 20%;
+  text-align: right;
+  line-height: 100px;
 }
 
 #setting ol li ul {
@@ -54,39 +84,17 @@ header h1 {
   display: inline;
 }
 
+#setting ul li img{
+  height: 100px;
+  width: 100px;
+}
+
 #setting i {
   color: #d8d8d8;
   position: absolute;
   right: 5px;
   bottom: 0;
   font-size: 28px;
-}
-
-#iPhone35 img {
-  width: 64px;
-  height: 96px;
-}
-
-#iPhone35 h3 {
-  height: 96px;
-}
-
-#iPhone4 img {
-  width: 64px;
-  height: 115.6px;
-}
-
-#iPhone4 h3 {
-  height: 115.6px;
-}
-
-#iPad img{
-  width: 204.8px;
-  height: 204.8px;
-}
-
-#iPad h3 {
-  height: 204.8px;
 }
 
 /* Setting End */
