@@ -138,35 +138,19 @@ header .social{
   height: 768px;
 }
 
-#preview nav ul {
-  padding-bottom: 20px;
-}
-#preview nav ul li {
-  display: inline;
-}
-
-#preview nav ul li a {
-  background: #40CDD5;
-  color: #fff;
-
-  border-radius: 5px;
-  padding: 10px 20px;
-  transition: 0.4s ease-out;
-}
-
-#preview nav ul li a:hover {
-  background: #f0f0f0;
-  color: #40cdd5;
-}
-
 /* Footer */
 
 footer {
   position: fixed;
   right: 0px;
   bottom: 0px;
-  text-align: right;
-  padding: 50px 20px 20px 0;
+  text-align: center;
+  width: 100%;
+  padding: 50px 0px 20px 0;
+}
+
+footer p {
+  float: right;
 }
 
 footer a {
@@ -177,6 +161,28 @@ footer a {
 footer a:hover {
   color: #40cdd5;
 }
+
+footer nav ul {
+  padding-bottom: 20px;
+}
+footer nav ul li {
+  display: inline;
+}
+
+footer nav ul li a {
+  background: #40CDD5;
+  color: #fff;
+
+  border-radius: 5px;
+  padding: 10px 20px;
+  transition: 0.4s ease-out;
+}
+
+footer nav ul li a:hover {
+  background: #f0f0f0;
+  color: #40cdd5;
+}
+
 
 /* =========================== */
 /* CSS Hack */
