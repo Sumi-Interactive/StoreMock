@@ -23,6 +23,7 @@ header h1 {
   text-align: center;
 }
 header h1 sup {
+  font-size: 14px;
   color: #d8d8d8;
   font-weight: 400;
   text-align: center;
