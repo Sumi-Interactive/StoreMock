@@ -1,12 +1,13 @@
 * {margin: 0; padding: 0;}
 ol,ul {list-style: none;}
+a {text-decoration: none;}
 
 /* Setting */
 
 #setting {
   background: rgba(230, 215, 210, 0.8);
   width: 100%;
-  position: absolute;
+  position: relative;
 }
 
 #setting header {
@@ -72,6 +73,36 @@ ol,ul {list-style: none;}
   background:#9de;
 }
 
+/* preview */
+#preview {
+  text-align: center;
+}
+
+#preview section {
+  padding: 50px 0;
+}
+
+#preview section img {
+  width: 320px;
+  height: 480px;
+}
+
+#preview nav ul {
+  padding-bottom: 20px;
+}
+#preview nav ul li {
+  display: inline;
+}
+
+#preview nav ul li a {
+  background: #f0f0f0;
+  padding: 10px 20px;
+  transition: 0.4s ease-out;
+}
+
+#preview nav ul li a:hover {
+  background: #a0a0a0;
+}
 
 /* =========================== */
 /* CSS Hack */
