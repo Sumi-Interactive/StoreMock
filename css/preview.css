@@ -48,4 +48,15 @@
   height: 225px;
 }
 
+/* mac */
+
+#preview section.mac {
+  display: none;
+}
+
+/* web */
+#preview section.web {
+  display: none;
+}
+
 

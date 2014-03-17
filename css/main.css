@@ -3,6 +3,7 @@ ol,ul {list-style: none;}
 a {text-decoration: none;}
 
 body {
+  background: #4a4a4a;
   color: #d8d8d8;
   font-family: 'Open Sans';
   font-weight: 400;
@@ -58,6 +59,7 @@ header .social{
   overflow: hidden;
   display: none;
   height: 560px;
+  z-index: 99999;
 }
 
 #setting em {
