@@ -63,9 +63,6 @@ header .social{
   font-size: 14px;
 }
 
-#setting ol {
-}
-
 #setting ol li h3 {
   color: #9b9b9b;
   float: left;
@@ -106,7 +103,8 @@ header .social{
 /* Setting End */
 
 #preview {
-  background:#9de;
+  background:#4a4a4a;
+  padding-bottom: 50px;
 }
 
 /* preview */
@@ -141,13 +139,36 @@ header .social{
 }
 
 #preview nav ul li a {
-  background: #f0f0f0;
+  background: #40CDD5;
+  color: #fff;
+
+  border-radius: 5px;
   padding: 10px 20px;
   transition: 0.4s ease-out;
 }
 
 #preview nav ul li a:hover {
-  background: #a0a0a0;
+  background: #f0f0f0;
+  color: #40cdd5;
+}
+
+/* Footer */
+
+footer {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  text-align: right;
+  padding: 50px 20px 20px 0;
+}
+
+footer a {
+  color: #f0f0f0;
+  transition: 0.4s ease-out;
+}
+
+footer a:hover {
+  color: #40cdd5;
 }
 
 /* =========================== */
