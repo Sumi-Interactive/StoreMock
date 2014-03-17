@@ -151,6 +151,8 @@ footer {
 
 footer p {
   float: right;
+  margin: -39px 15px 0 0;
+  font-size: 14px;
 }
 
 footer a {
