@@ -10,10 +10,11 @@
 }
 
 #pre_body ul {margin: 0; padding: 0;}
+#pre_body ul li {margin: 0; padding: 0;}
 
 /* iPhone */
 #pre_body.iPhone {
-  margin: 160px auto 0 auto;
+  margin: 240px auto 0 auto;
   height: 360px;
   width: 300px;
 }
@@ -30,14 +31,14 @@
 
 /* iPad */
 #pre_body.iPad {
-  margin: 160px auto 0 auto;
-  height: 635px;
-  width: 1550px;
+  margin: 320px auto 0 auto;
+  height: 235px;
+  width: 610px;
 }
 
-#pre_bodu.iPad ul {
-  width: 630px;
-  height: 630px;
+#pre_body.iPad ul {
+  width: 1550px;
+  height: 225px;
 }
 
 #pre_body.iPad img {

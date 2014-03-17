@@ -123,12 +123,14 @@ header .social{
 #preview section.iPhone {
   background: url('../images/iPhone.png') no-repeat center center;
   background-size: 320px 686px;
+  height: 686px;
 }
 
 /* iPad */
 #preview section.iPad {
-  background: url('../images/iPad.png') no-repeat center center;
-  background-size: 630px 630px;
+  background: url('../images/ipad@2x.jpg') no-repeat center center;
+  background-size: 1024px 768px;
+  height: 768px;
 }
 
 #preview nav ul {
