@@ -119,20 +119,10 @@ header .social{
   background-size: 320px 686px;
 }
 
-#pre_frame.iPhone {
-  width: 320px;
-  height: 686px;
-}
-
 /* iPad */
 #preview section.iPad {
   background: url('../images/iPad.png') no-repeat center center;
   background-size: 630px 630px;
-}
-
-#pre_frame.iPad {
-  width: 630px;
-  height: 630px;
 }
 
 #preview nav ul {
