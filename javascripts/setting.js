@@ -1,5 +1,9 @@
+$('*[data-behavior=show_setting]').on('click', function(event) {
+  $('#setting').slideDown();
+  $('*[data-behavior=show_setting]').hide();
+});
+
 $('*[data-behavior=hide_setting]').on('click', function(event) {
-  $('#setting').toggleClass('slide-up');
-  $('#setting i').toggleClass('fa-angle-double-up');
-  $('#setting i').toggleClass('fa-angle-double-down');
+  $('#setting').slideUp();
+  $('*[data-behavior=show_setting]').fadeIn();
 });
