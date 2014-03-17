@@ -6,4 +6,5 @@ $('*[data-behavior=show_setting]').on('click', function(event) {
 $('*[data-behavior=hide_setting]').on('click', function(event) {
   $('#setting').slideUp();
   $('*[data-behavior=show_setting]').fadeIn();
+  syncImages();
 });
