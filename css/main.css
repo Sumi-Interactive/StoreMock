@@ -37,9 +37,12 @@ header button {
   color: #40CDD5;
   background: none;
   display: block;
-  border: 1px solid #40CDD5;
-  padding: 10px 0;
+  border: 2px solid #40CDD5;
   font-weight: 700;
+  padding: 10px 0;
+  font-size: 14px;
+  width: 0px;
+  border-radius: 2px;
 }
 header .social{
   flex: 5 0 auto;
