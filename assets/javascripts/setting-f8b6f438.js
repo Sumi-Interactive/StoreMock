@@ -1,0 +1,1 @@
+$("*[data-behavior=show_setting]").on("click",function(){$("#setting").slideDown(),$("*[data-behavior=show_setting]").hide()}),$("*[data-behavior=hide_setting]").on("click",function(){$("#setting").slideUp(),$("*[data-behavior=show_setting]").fadeIn(),syncImages()});

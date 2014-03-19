@@ -1,0 +1,1 @@
+var syncImages=function(){var a=["iPhone","iPad"];$.each(a,function(a,i){var c=$("#"+i+" li img"),n=$("."+i+" ul li img");n.each(function(a,i){var n=$(c[a]).attr("src");$(i).attr("src",n)})})};
