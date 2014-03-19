@@ -1,0 +1,50 @@
+.pre_body {
+  overflow-y: scroll;
+  padding: 0 10px;
+  ul {
+    li {
+      display: inline;
+      margin: 0;
+      padding: 0;
+    }
+    margin: 0;
+    padding: 0;
+  }
+}
+
+#preview section {
+  &.iPhone {
+    div.pre_body {
+      margin: 240px auto 0 auto;
+      height: 360px;
+      width: 300px;
+    }
+    ul {
+      height: 355px;
+      width: 1050px;
+    }
+    div.pre_body img {
+      width: 200px;
+      height: 355px;
+    }
+  }
+  &.iPad {
+    display: none;
+    div.pre_body {
+      margin: 320px auto 0 auto;
+      height: 235px;
+      width: 610px;
+      ul {
+        width: 1550px;
+        height: 225px;
+      }
+      img {
+        width: 300px;
+        height: 225px;
+      }
+    }
+  }
+  &.mac, &.web {
+    display: none;
+  }
+}

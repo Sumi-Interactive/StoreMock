@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: #4a4a4a;
+  color: #d8d8d8;
+  font-family: 'Open Sans';
+  font-weight: 400;
+}
+
+/* Header */
+
+header {
+  background: #191919;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 100px;
+  h1 {
+    color: white;
+    font-weight: 700;
+    flex: 1 0 auto;
+    text-align: center;
+    sup {
+      font-size: 14px;
+      color: #d8d8d8;
+      font-weight: 400;
+      text-align: center;
+    }
+  }
+  em {
+    flex: 1 0 auto;
+  }
+  button {
+    flex: 1 0 auto;
+    cursor: pointer;
+    color: #40CDD5;
+    background: none;
+    display: block;
+    border: 2px solid #40CDD5;
+    font-weight: 700;
+    padding: 10px 0;
+    font-size: 14px;
+    width: 0px;
+    border-radius: 2px;
+  }
+  .social {
+    flex: 5 0 auto;
+  }
+}
+
+/* Setting */
+
+#setting {
+  background: rgba(25, 25, 25, 0.95);
+  width: 100%;
+  position: absolute;
+  overflow: hidden;
+  display: none;
+  height: 500px;
+  z-index: 99999;
+  em {
+    display: block;
+    line-height: 100px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  ol li {
+    h3 {
+      color: #9b9b9b;
+      float: left;
+      width: 30%;
+      text-align: right;
+      line-height: 100px;
+      padding: 0 10px 0 0;
+      box-sizing: border-box;
+      font-weight: 400;
+    }
+    margin: 10px 0;
+    ul {
+      float: left;
+      width: 70%;
+      li {
+        display: inline;
+        margin: 0 10px;
+      }
+    }
+  }
+  ul li img {
+    height: 100px;
+    width: 100px;
+  }
+  i {
+    display: block;
+    color: #d8d8d8;
+    font-size: 42px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+  }
+}
+
+/* Setting End */
+
+#preview {
+  background: #4a4a4a;
+  padding-bottom: 50px;
+  text-align: center;
+  section {
+    padding: 50px 0;
+    &.iPhone {
+      background: url('../images/iPhone.png') no-repeat center center;
+      background-size: 320px 686px;
+      height: 686px;
+    }
+    &.iPad {
+      background: url('../images/ipad@2x.jpg') no-repeat center center;
+      background-size: 1024px 768px;
+      height: 768px;
+    }
+  }
+}
+
+/* preview */
+
+/* iPhone */
+
+/* iPad */
+
+/* Footer */
+
+footer {
+  position: fixed;
+  right: 0px;
+  bottom: 0px;
+  text-align: center;
+  width: 100%;
+  padding: 40px 0px 20px 0;
+  background-color: rgba(29%, 29%, 29%, 0.8);
+  p {
+    float: right;
+    margin: -39px 15px 0 0;
+    font-size: 14px;
+  }
+  a {
+    color: #f0f0f0;
+    transition: 0.4s ease-out;
+    &:hover {
+      color: #40cdd5;
+    }
+  }
+  nav ul {
+    padding-bottom: 20px;
+    li {
+      display: inline;
+      a {
+        background: #40CDD5;
+        color: #fff;
+        border-radius: 2px;
+        padding: 10px 20px;
+        transition: 0.4s ease-out;
+        &:hover {
+          background: #f0f0f0;
+          color: #40cdd5;
+        }
+      }
+    }
+  }
+}
+
+/* =========================== */
+/* CSS Hack */
+
+.clearfix {
+  &:before {
+    content: " ";
+    display: table;
+  }
+  &:after {
+    content: " ";
+    display: table;
+    clear: both;
+  }
+  *zoom: 1;
+}
