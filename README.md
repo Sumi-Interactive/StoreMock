@@ -1,10 +1,10 @@
-# Grid Diary App Website
+# StoreMock
 
-## Development
+## 开发
 
-Setup with `$ bundle install`, then run `$ bin/middleman` to start the
-server.
+* 先 `$ bundle install` 安装所有 gem
+* 然后 `$ bin/middleman` 可以在本地开启服务器
 
-## Deploy to Github Pages
+## 发布到 Github Pages
 
-`$ bin/middleman deploy`
+* `$ bin/middleman deploy`
